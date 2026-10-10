@@ -1,0 +1,10 @@
+# Direct dependencies - pinned to the versions this app was tested against.
+colorama==0.4.6
+pywhispercpp==1.5.1
+yt-dlp==2026.8.19
+
+# Pulled in by pywhispercpp / yt-dlp - left unpinned so pip does not downgrade
+# a working environment.
+numpy>=1.26
+platformdirs>=4.0
+tqdm>=4.66

@@ -1,0 +1,5 @@
+{
+  "profile": "auto",
+  "model": "ggml-large-v3-turbo-q8_0",
+  "threads": null
+}
